@@ -1,0 +1,90 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+/*.tic-tac-toe{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}*/
+
+
+.tic-tac-toe-Desktop {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+
+}
+@media only screen and (max-width: 481px){
+    .tic-tac-toe-Mob {
+        position: absolute;
+        top: 10%;
+        left: 17%;
+    }
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 16px;
+    left: 21%;
+    bottom: 0%;
+    text-align: center;
+    font-size: 21px;
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 2px solid black;
+    float: left;
+    font-size: 36px;
+    line-height: 34px;
+    height: 80px;
+    margin-right: -1px;
+    margin-top: -1px;
+    text-align: center;
+    color:black;
+    width: 80px
+}
+
+.square:focus {
+    outline: none;
+}
+
+.notify {
+    color: black;
+    left: 22%;
+    top: -15%;
+    text-align: center;
+    margin-bottom: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 21px;
+}
+
+
+.playagain{
+    background-color: #fff;
+    padding: 16px;
+    width: 237px;
+    margin-top: 16px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 21px;
+    cursor: pointer;
+    color: black;
+}
